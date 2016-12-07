@@ -1,0 +1,265 @@
+body {
+  color: white;
+  background-color: black;
+  margin-top: 70px;
+  font-family: 'Lalezar', cursive;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+ }
+ /*---------------------------------------------------------------BackGround Video------------*/
+ #video_cover {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background: no-repeat;
+   background-size: cover;
+   background-position: center;
+   z-index: -1;
+ }
+ /* -----------------------------------------------------------------      Navbar   ------------------ */
+#customNavbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#customNavbar * {
+  color: white;
+}
+.icon-bar {
+   background-color: white;
+}
+ul.nav a:hover { color: black !important;}
+/* ---------------------------------------------------------------       Banner  ----------------   */
+.jumbotron { background-size: auto 100% !important; background-color: transparent; }
+#banner {
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 0px 0px 10px black;
+}
+#banner * {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 35px;
+}
+#banner h1 {
+  font-size: 110px;
+}
+@media (max-width: 775px)
+{
+    #official{display: none;}
+    .jumbotron{background-image: url("img/gameControllers2.jpg");}
+    #banner h1 {font-size: 55px;}
+}
+/* ----------------------------------------------------   Scheduled for Release 2017  ----------------   */
+.height {
+  display: table;
+}
+.height [class*="thumb"] {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.height div {
+  padding: 15px;
+}
+#thumbGallery {
+  text-align: center;
+}
+.imgtooltip + div {
+  display: none;
+  width: auto;
+  position: absolute;   /* Myndir Hreyfast ekki */
+  /*position: relative; */      /* Myndir Hreyfast nidur */
+  margin-top: -200px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.imgtooltip:hover + div, .imgtooltip + div:hover {
+  display: block;
+}
+#stayTuned {
+  margin-top: -30px;
+}
+/* -------------------------------------------------    Latest Reviews Carousel and Table ----------------    */
+#latest {
+  border: 4px solid grey;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+#latest h1 {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 48px;
+}
+@media (max-width: 775px) {
+  #latest h1 {
+    font-size: 28px;
+  }
+}
+#latest * {
+  text-align: center;
+}
+#latest table {
+  width: 100%;
+  height: 100%;
+}
+#tableHeader {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 28px;
+}
+#latest table td {
+  font-size: 20px;
+  padding: 5px;
+}
+#latest tr {
+  margin: 5px;
+}
+.table-bordered {
+  margin-top: 35px;
+}
+.glyphicon-star {
+  color: #ffd700;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 70%;
+ }
+ /* ----------------------------------------------------------  ScrollSpy ----------------   */
+ #scrollSection p {
+   text-align: center;
+   font-size: 30px;
+ }
+ .nav-tabs {
+   font-size: 25px;
+   border: none;
+   margin-bottom: -70px;
+   width: 360px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ #scrollContent img {
+   width: 600px;
+ }
+ @media (max-width: 775px)
+ {
+     #scrollContent p {
+       font-size: 25px;
+     }
+     #scrollContent img {
+         width: 350px;
+     }
+ }
+ #scrollContent {
+   border: 5px solid grey;
+   padding: 25px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   width: 100%;
+   overflow-x: hidden;
+   height: 550px;
+   overflow-y: scroll;
+ }
+ /* -------------------------------------------------    ourGames Most Famous For ----------------    */
+ #ourGamesDiv h1 {
+   text-align: center;
+   margin-bottom: -70px;
+ }
+ #ourGamesDiv div {
+   padding: 32px;
+ }
+ .ourGames {
+   position: relative;
+   width: 100%;
+ }
+ @media (max-width: 775px)
+ {
+   #ourGamesDiv
+   {
+     margin-left: -30px;
+     width: 75%;
+   }
+ }
+ .ourGames + h2 {
+   display: none;
+   text-align: center;
+ }
+ .ourGames:hover + h2, .ourGames + h2:hover {
+   display: block;
+ }
+/*------------------------------------------------------------- Game Of The Year -------------*/
+.imgSize {
+  width: 100%;
+  height: 210px;
+}
+h1 {
+  text-align: center;
+}
+#gameOfYear a {
+  font-size: 25px;
+  color: white;
+}
+#gameOfYear * h2 {
+  text-align: center;
+  color: white;
+}
+#nextYear {
+  border: solid 5px white;
+  margin-top: 75px;
+  padding-bottom: 50px;
+}
+#nextYear a {
+  font-size: 20px;
+  color: white;
+}
+/*---------------------------------------------------------------- Footer ------------------ */
+
+.footer {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.footer, .push {
+  height: 55px;
+}
+.footer h2 {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+h1{
+      color: white;
+
+}
+h2{
+      color: white;
+
+}
+h3{
+      color: white;
+
+}
+p{
+      color: white;
+
+}
+tr{
+      color: white;
+
+}
+td{
+      color: white;
+
+}
